@@ -1,0 +1,36 @@
+.how__to {
+    display: grid;
+    /* justify-content: start;
+    align-items: start; */
+
+    border: 1px solid white;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.how__to2 {
+    display: flex;
+    /* justify-content: start;
+    align-items: start; */
+
+    border: none;
+    margin: 0rem 0rem 1.5rem 0rem;
+    
+}
+
+.how__to3 {
+    display: flex;  /* justify-content: start;
+    align-items: start; */
+    color: blue;
+    border: none;
+    margin: 0rem 0rem 1.5rem 0rem;
+    
+}
+
+.how__to4 {
+    display: grid;
+    /* justify-content: start;
+    align-items: start; */
+
+    border: 1px solid white;
+    margin: 0rem 0rem 1.5rem 0rem;
+}

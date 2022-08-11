@@ -1,0 +1,14 @@
+.SpaceApp {
+  display: grid;
+  justify-content: space-around;
+  color: white;
+  margin: 0rem 5rem 0rem 5rem;
+}
+
+.spacecontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+}

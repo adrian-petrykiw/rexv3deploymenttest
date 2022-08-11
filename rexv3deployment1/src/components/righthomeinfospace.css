@@ -1,0 +1,22 @@
+.right_home_infospace {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid white;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.right_home_info2space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    place-items: center;
+    border: 1px solid white;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.right_home_info_startspace {
+    justify-content: space-between;
+    align-content: center;
+    margin: 7.5rem 0rem 0rem 5rem;
+}
