@@ -38,7 +38,7 @@ const PacmanTodo = ({ arr }) => {
 
   const copyText = () => {
     setCopied(true);
-    navigator.clipboard.writeText(window.location.href + "#" + arr.item.pacmanMintAddress)
+    navigator.clipboard.writeText(window.location.href + "#" + arr.item.blinkyMintAddress)
     setTimeout(() => {
       setCopied(false);
     }, 1000);
