@@ -68,7 +68,7 @@ const PacmanTodo = ({ arr }) => {
             // invaderUfoImageURL: invaderUfoImageURL,
 
           });
-          window.location.href = 'https://adrian-petrykiw.github.io/space_invaders_injectionv2/';
+          window.location.href = 'http://pacman.r3x.tech/';
         }}>
         <ListItem style={{ paddingBottom: '1.75rem', paddingTop: '1.5rem' }}>
           <ListItemAvatar style={{ paddingLeft: '1.25rem', paddingTop: '4.25rem' }}>
