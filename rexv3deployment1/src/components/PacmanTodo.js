@@ -1,7 +1,7 @@
 import { List, ListItem, ListItemAvatar, Avatar, ListItemText, Typography } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { db } from '../firebase.js';
-import { updateDoc, doc, deleteDoc } from "firebase/firestore";
+import { updateDoc, doc } from "firebase/firestore";
 import './pacmantodo.css';
 import styled from "styled-components";
 import React, { useState } from 'react';
@@ -45,7 +45,7 @@ const PacmanTodo = ({ arr }) => {
   };
 
   return (
-    <div id={arr.item.pacmanMintAddress}>
+    <div id={arr.item.blinkyMintAddress}>
       <div className="pacman__todo_copy">
       {copied ? <CopyButton2>LINK COPIED</CopyButton2> : <CopyButton onClick={copyText}>SHARE GAME</CopyButton>}
       </div>
