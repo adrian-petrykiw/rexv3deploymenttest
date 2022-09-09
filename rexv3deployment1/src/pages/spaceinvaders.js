@@ -224,7 +224,7 @@ function SpaceInvaders() {
           // invaderUfoNFTPic: invaderufonftPic,
           timestamp: serverTimestamp()
         })
-        window.location.href = 'https://www.r3x.tech/#games'
+        // window.location.href = 'https://www.r3x.tech/#games'
         setInputGameName('')
         setInputShipMintAddress('')
         setInputInvaderOneMintAddress('')
